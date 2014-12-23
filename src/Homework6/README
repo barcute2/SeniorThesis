@@ -1,0 +1,13 @@
+Problem1.java solves both problem 1 and problem 2 from the homework.
+It also converts train.arff, test.arff and application.arff to train1.arff,
+test1.arff, application1.arff in order to use the tf-idf values.
+To run my classifier:
+- run Problem1.java in a folder with the three arff files, so that the
+corresponding tf-idf files can be created.
+- run Problem3.java - it will output the results to barcute2_application_result.txt
+
+Additional info:
+- I am using a J48 tree with pruning enabled
+- I use the tf-idf values as opposed to the raw data
+- There is an ArrayList of stopwords I have created in Problem1.java which 
+  makes the weights of non-important words equal to 0
